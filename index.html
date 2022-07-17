@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="second.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,300;1,600&display=swap" rel="stylesheet">
+    <style media="screen">
+    .header{
+      min-width: 100%;
+      min-height: 100vh;
+      background-image: url("vltc2.jpg");
+      opacity: 0.8;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+
+    }
+.navlinks ul li::after{
+  content:'';
+  width : 0%;
+  height:4px;
+  background: red;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+
+}
+.navlinks ul li:hover::after{
+  width:100%;
+}
+.textbox{
+
+  color:black;
+  margin: auto;
+  top: 50%;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  font-size: 12px;
+
+
+}
+.textbox a{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline overline;
+}
+.textbox p{
+  color:blue;
+}
+
+.textbox a::after{
+  content:'';
+  width:0%;
+  height : 5px;
+  background: black;
+  display: block;
+  margin: auto;
+  transition: 0.2s;
+}
+.textbox a:hover::after{
+  width:100%;
+}
+
+    nav a img{
+      position: relative;
+      width: 200px;
+      float: left;
+      padding: 0px;
+      opacity: 1.0;
+      z-index: -1;
+    }
+    nav ul li{
+      float: right;
+      padding: 20px 20px;
+      color:red;
+      list-style: none;
+    }
+    nav ul li a{
+      color: white;
+      font-size: 20px;
+    }
+    nav ul li a:hover{
+      color:red;
+    }
+    .header p{
+      color: black;
+      text-decoration-style: wavy;
+    }
+
+    </style>
+  </head>
+  <body>
+    <section class ="header">
+        <center><h1>WELCOME TO IIIT KOTA</h1></center>
+      <nav>
+        <a href="first.html">
+  <img src="iiitklogoo.png" alt="OXFORD">
+  <div class="navlinks">
+    <ul>
+      <li><a href= "">HOME</li>
+          <li><a href= "https://iiitkota.ac.in/curriculum" target="_blank">COURSES</li>
+  <li><a href= "https://r.search.yahoo.com/_ylt=AwrjYBJ0Q3Zi_QsS6LBXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZANMT0NVSTAxOF8xBHNlYwNzcg--/RV=2/RE=1651946485/RO=10/RU=https%3a%2f%2felt.oup.com%2fstudent%2foxfordskillsworld%2f/RK=2/RS=LHBACUGswTez583izmIbPcne3u4-" target="_blank">SKILLS</li>
+  <li><a href= "https://iiitkota.ac.in/fees" target="_blank">FEES</li>
+  <li><a href= "https://iiitkota.ac.in/faculty" target="_blank">FACULTIES</li>
+          </ul>
+
+  </div>
+        </a>
+      </nav>
+      <div class="textbox">
+        <center><h1> IIIT KOTA</h1><center>
+        <p style="font-weight: bold"> Characterised by a tradition of creating a center for imparting technical education of international standards, we are committed to excellence in education, to innovative practice and to the concept of lifelong learning.The Indian Institute of Information Technology Kota, deemed to be a Institute of National Importance, was established in 2013 with a vision to contribute the IT world through education and research, entrepreneurship and innovation.
+IIIT Kota is a joint venture of the Ministry of Education (MoE) Govt. of India and Govt. of Rajasthan with Industry Partners in Public-Private-Partnership (PPP) mode.
+Currently the institute is mentored by Malaviya National Institute of Technology Jaipur (MNIT Jaipur) and situated at MNIT Jaipur. The main site of IIIT, Kota shall be constructed at Ranpur near Kota on 100.37 acres of land made available by the Govt. of Rajasthan. The institute is governed by the eminent personalities of the Government, Industry and Academia.
+
+        </p>
+        <center><a href="https://iiitkota.ac.in/" target="_blank">CLICK HERE TO KNOW MORE!!!!</a></center>
+      </div>
+      <br>
+
+
+  </body>
+</html>
+
+
+
+
+
+Q2  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  
+  <style>
+    
+
+   
+
+
+
+    .header h1 {
+      color: #222222;
+      font-size: 30px;
+      font-family: 'Pacifico', cursive;
+    }
+
+    .header .social a {
+      padding: 0 5px;
+      color: #222222;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+    }
+
+    .content {
+      margin-left: 190px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #29292a;
+      color: white;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px 0;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      padding: 8px;
+    }
+
+    tr:nth-child(1) {
+      background-color: #84e4e2;
+      color: white;
+    }
+
+    tr td i.fas {
+      display: block;
+      font-size:  35px;
+      text-align: center;
+    }
+
+    .footer {
+      padding: 55px 20px;
+      background-color: #2e3550;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h1><center>FOOD PLAZA</center></h1>
+      
+    </header>
+    <aside class="left">
+      <ul>
+        <li><a >Home</a></li>
+        <li><a>Order Now</a></li>
+        <li><a >Contact Us</a></li>
+        <li><a>About Us</a></li>
+      </ul>
+      <br><br>
+      <P><U>Address:--</U></P>
+      <p><u>"Shop no. 69 kaveri par mansarovar"<br></u></p>
+    </aside>
+    <main class="content">
+      <h2><U>ABOUT FOOD PLAZA</U></h2>
+      <p>Hi,
+
+        Welcome to FOOD PLAZA, A RUSSIAN based food blog with Sri Lankan Recipes & other recipes tried & tasted by me & family members.
+        </p>
+      <h2><U>HISTORY</U></h2>
+      <p>The second-floor food court at the Paramus Park shopping mall in Paramus, New Jersey, which opened in March 1974, has been credited as the first successful shopping mall food court in the United States. However, a food court at the Sherway Gardens shopping center in Toronto, Ontario, Canada was constructed three years earlier.[10] Built by The Rouse Company, one of the leading mall building companies of the time, it followed an unsuccessful attempt at the Plymouth Meeting Mall in 1971, which reportedly failed because it was "deemed too small and insufficiently varied."[10][11]
+
+        The Concept has since evolved in the US in the form of the Food hall which has increased in popularity in the US. [12]</p>
+      <hr><br>
+      <h1><U><center>Welcome to FOOD PLAZA</center></U></h1>
+      <img src="https://lh3.googleusercontent.com/z8X2w_KQ4XFKLbkDcWjTxfa6zOtZbrT1sUpHO1dGK4sY7a_64kTyS33qAd_TMUKQ7p_dfbxKL__NkYlwFXMqT1G8DWLC=w512" height="700" width="1300"/>
+        <table border="1" cellspacing="0" bgcolor="aqua">
+         <h1><U><CENTER>OPEN NOW: 09:00AM-11:30PM</CENTER></U></h1>
+      
+      <tr bgcolor="yellow">
+          <th colspan="6">VEG MENU</th>
+          </tr>
+          <tr bgcolor="green">
+          
+         
+          <th> VEG</th>
+          
+          <th><b>PRICE</b></th>
+          
+        </tr>
+        <tr bgcolor="pink" style="text-align: center;">
+            <td>PAV BHAJI</td>
+            
+            <td><B>100/-per plate</B></td>
+        </tr>
+        <tr bgcolor="pink" style="text-align: center;">
+            <td>IDLI SAMBHAR</td>
+            
+            <td><B>120/-per plate</B></td>
+        </tr>
+        <tr bgcolor="pink" style="text-align: center;">
+         <td >CHOLE KULCHE</td>
+            
+            <td><b>150/-per plate</b></td>
+          </tr>
+          <tr bgcolor="pink" style="text-align: center;">
+              <td>BURGER</td>
+              
+              <td><B>50/-per plate</B></td>
+          </tr>
+        </tr>
+        <tr bgcolor="pink" style="text-align: center;">
+            <td>SPRING ROLLS</td>
+            
+            <td><B>100/-per 4 pieces</B></td>
+        </tr>
+      </tr>
+      <tr bgcolor="pink" style="text-align: center;">
+          <td>DAAL ROTI</td>
+          
+          <td><B>100/-per plate</B></td>
+      </tr>
+    </tr>
+    <tr bgcolor="pink" style="text-align: center;">
+        <td>PANEER PAKODA</td>
+        
+        <td><B>100/-per plate</B></td>
+    </tr></tr>
+    <tr bgcolor="pink" style="text-align: center;">
+        <td>PIZZA</td>
+        
+        <td><B>200/-per plate</B></td>
+    </tr></tr>
+    <tr bgcolor="pink" style="text-align: center;">
+        <td>BHALLA</td>
+        
+        <td><B>50/-per plate</B></td>
+    </tr></tr>
+    <tr bgcolor="pink" style="text-align: center;">
+        <td>THANDAI</td>
+        
+        <td><B>80/-per glass</B></td>
+    </tr>
+        
+        
+        </tr>
+        <br>
+        <P></P>
+
+        <tr bgcolor="yellow">
+          <th colspan="6">NON-VEG MENU</th>
+          </tr>
+          <tr bgcolor="red">
+          
+         
+          <th>NON VEG</th>
+          
+          <th><b>PRICE</b></th>
+          
+        </tr>
+        <tr bgcolor="grey" style="text-align: center;">
+            <td>LAMB ROGAN JOSH</td>
+            
+            <td><B>200/-per plate</B></td>
+        </tr>
+        <tr bgcolor="grey" style="text-align: center;">
+            <td>CHICKEN BIRYANI </td>
+            
+            <td><B>220/-per plate</B></td>
+        </tr>
+        <tr bgcolor="grey" style="text-align: center;">
+         <td >BUTTER CHICKEN</td>
+            
+            <td><b>350/-per plate</b></td>
+          </tr>
+          <tr bgcolor="grey" style="text-align: center;">
+              <td>TANDOORI CHICKEN</td>
+              
+              <td><B>250/-per plate</B></td>
+          </tr>
+          <tr bgcolor="grey" style="text-align: center;">
+            <td>CHICKEN BURGER </td>
+            
+            <td><B>150/-per pieces</B></td>
+        </tr>
+        <tr bgcolor="grey" style="text-align: center;">
+          <td>CHICKEN CURRY</td>
+          
+          <td><B>250/-per plate</B></td>
+      </tr>
+    
+       
+      </table>
+      <img src="https://tse4.mm.bing.net/th?id=OIP.a-UewhYPhQNOEYSHTnGkuAHaE8&pid=Api&P=0&w=251&h=167"width="15%"height="210" >
+      
+            <img src="https://tse4.mm.bing.net/th?id=OIP.z_ilCv9sIs4AnOpF_9GB5AHaEo&pid=Api&P=0&w=247&"width="15%"height="210">
+           
+
+                <img src="https://tse2.mm.bing.net/th?id=OIP.KZUTwF3-Zw1dIJxo67Ur4QHaFj&pid=Api&P=0&w=204&h=153"width="15%"height="210">
+                
